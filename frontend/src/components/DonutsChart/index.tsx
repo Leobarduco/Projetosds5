@@ -23,7 +23,8 @@ const DonutsChart = () => {
                 setChartData({ labels: myLabels, series: mySeries });
                 console.log(chartData);
             });
-    }, [])
+    }, []);
+
 
     const options = {
         legend: {
