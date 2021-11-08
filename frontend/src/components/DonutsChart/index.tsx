@@ -21,7 +21,7 @@ const DonutsChart = () => {
                 const myLabels = data.map(x => x.sellername);
                 const mySeries = data.map(x => x.sum);
                 setChartData({ labels: myLabels, series: mySeries });
-                console.log(chartData);
+                
             });
     }, []);
 
